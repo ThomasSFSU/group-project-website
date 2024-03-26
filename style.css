@@ -1,0 +1,87 @@
+/* General Style */
+
+html {
+    background-color: slategray;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Navigation Bar */
+
+nav {
+    background-color: darkslategrey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    position: sticky;
+
+}
+
+#top-nav {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    background-color: blue;
+    font-size: 1rem;
+}
+#page-title {
+    font-size: 1rem;
+    color: aquamarine;
+}
+#top-nav a {
+    color: aquamarine;
+
+}
+
+
+.top-nav-element {
+    padding: 1rem 2rem;
+    background-color: rgb(52, 54, 57);
+    margin: 0;
+}
+.top-nav-element:hover {
+    background-color: darkslategray;
+}
+
+
+/* Content Cards */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.content-card {
+    width: calc(50% - 20px); /* 25% for 4 cards per row, minus margin */
+    height: 256px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Footer */
+ footer {
+    padding-left: 10%;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    background-color: black;
+    color: white;
+ }
+ #contact-form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+ }
