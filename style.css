@@ -82,5 +82,6 @@ main {
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
+    width: 80%;
 
  }
