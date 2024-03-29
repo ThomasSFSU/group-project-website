@@ -1,62 +1,76 @@
 /* General Style */
 
-html {
-    background-color: slategray;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
-    margin: 0;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    background: #000;
+    min-height: 200vh;
 }
 
-/* Navigation Bar */
-
-nav {
-    background-color: darkslategrey;
+/* Header and Navigation */
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 30px 100px;
+    z-index: 10000;
+    background-color: #000;
+    color: #fff;
+}
+#queenlogo {
+    height: 32px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding-left: 10px;
-    position: sticky;
-    margin: 0;
+    justify-content: center;
+}
+header .logo {
+    position: relative;
+    font-weight: 700;
+    filter: #fff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
 }
 
-#top-nav {
-    list-style-type: none;
-    padding: 0;
+header ul {
+    position: relative;
     display: flex;
-    background-color: blue;
-    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
 }
-#page-title {
-    font-size: 1rem;
-    color: aquamarine;
+header ul li {
+    position: relative;
+    list-style: none;
 }
-#top-nav a {
-    color: aquamarine;
-
+header ul li a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500;
+    transition: 0.6s;
 }
-
-
-.top-nav-element {
-    padding: 1rem 2rem;
-    background-color: rgb(52, 54, 57);
-    margin: 0;
-}
-.top-nav-element:hover {
-    background-color: darkslategray;
-}
-
 
 /* Content Cards */
 main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 30px 100px;
 }
 
 .content-card {
