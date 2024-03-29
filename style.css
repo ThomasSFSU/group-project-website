@@ -10,6 +10,7 @@
 body {
     background: #000;
     min-height: 200vh;
+    color: #fff;
 }
 
 /* Header and Navigation */
@@ -77,10 +78,13 @@ main {
     width: calc(50% - 20px); /* 50% for 2 cards per row, minus margin */
     height: 256px;
     margin: 10px;
-    background-color: #424242;
-    border: 1px solid #373737;
+    border: 1px solid #fff;
+    border-radius: 15px;
     padding: 20px;
     box-sizing: border-box;
+}
+.content-card h2 {
+    text-align: center;
 }
 
 /* Footer */
