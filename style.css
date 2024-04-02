@@ -1,10 +1,15 @@
+@font-face {
+    font-family: QueenFont;
+    src: url("assets/QueenInlineGrunge.ttf");
+}
+
 /* General Style */
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+    font-family: "QueenFont", "Roboto", sans-serif;
 }
 
 body {
