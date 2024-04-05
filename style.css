@@ -179,9 +179,14 @@ button {
     border-radius: 4px;
     text-align: center;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: 0.6s ease;
+    font-family: "QueenFont";
+    margin-left: auto;
+    margin-right: auto;
 }
 
 button:hover {
-    background-color: #444;
+    box-shadow: 0 0 36px rgba(255, 255, 255, 0.5); /* Glow effect on hover */
+    color: black;
+    background-color: white;
 }
