@@ -9,13 +9,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "QueenFont", "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
+    text-align: justify;
 }
 
 body {
     background: #000;
     min-height: 200vh;
     color: #fff;
+}
+
+h2 {
+    font-family: "QueenFont";
+    padding-bottom: 16px;
+    text-align: center;
 }
 
 /* Header and Navigation */
@@ -129,6 +136,52 @@ main {
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 20px;
 
  }
+
+/* ADDED */
+ footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+
+label {
+    margin-bottom: 5px;
+    font-family: "QueenFont";
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 252, 252);
+    background-color: #000000;
+    border-radius: 4px;
+    font-size: 1.2rem;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: black;
+    font-size: 2rem;
+    color: #ffffff;
+    border: 1px solid white;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #444;
+}
