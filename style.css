@@ -82,6 +82,10 @@ header ul li a::before {
     content: "🔗";
 }
 
+header ul li a:hover {
+    font-size: 1.2rem;
+}
+
 /* Introduction of Site */
 
 .introduction-image {
@@ -130,7 +134,6 @@ main {
 
 /* Footer */
  footer {
-    padding-left: 10%;
     padding-bottom: 20px;
     margin-bottom: 0px;
     background-color: black;
@@ -154,7 +157,10 @@ main {
  footer {
     background-color: #000;
     color: #fff;
-    padding: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    
+    width: 100%;
 }
 
 footer h2::after{
@@ -197,4 +203,14 @@ button:hover {
     box-shadow: 0 0 36px rgba(255, 255, 255, 0.5); /* Glow effect on hover */
     color: black;
     background-color: white;
+}
+
+#copyright {
+    text-align: center;
+    padding: 20px;
+    background-color: #141414;
+    margin-bottom: 0px;
+    margin: 0px;
+    width: 100%;
+    margin-top: 20px;
 }
