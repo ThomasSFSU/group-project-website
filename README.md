@@ -9,7 +9,6 @@ Also, check out our deployment on [Netlify.](https://scintillating-wisp-025553.n
 ![Demo Screenshot of Site](ScreenshotOfPage.png)
 
 ## Mockup
-![Mockup of Website](https://github.com/ThomasSFSU/group-project-website/blob/main/mockup.jpeg)
-![Better view of Website Mockup](anotherMockup.jpeg)
+![Website Mockup](anotherMockup.jpeg)
 ## Creators
 Cedric Blanco & Thomas Brock
